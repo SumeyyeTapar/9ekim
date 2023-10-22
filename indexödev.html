@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex2ödev</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box1, .kutular, .kutular1, .kutular2, .kutular3, .kutular4 { 
+            align-items: center;
+            margin: 20px;
+            background-color: orange;
+            display: flex;
+            border: 1px solid black;
+            min-width: 30%;  
+             min-height: 100px;
+        }
+
+        .box2,.kutu1, .kutu4, .kutu7, .kutu10, .kutu13 {
+            display: flex;
+            background-color: bisque;
+            border: 1px solid black;
+            width: 100px;
+            height: 70px;
+        }
+        .box3, .kutu2, .kutu5, .kutu8, .kutu11, .kutu14 { display: flex;
+            background-color: bisque;
+            border: 1px solid black;
+            width: 150px;
+            height: 70px;
+
+        }
+        .box4, .kutu3, .kutu6, .kutu9, .kutu12, .kutu15 {display: flex;
+            background-color: bisque;
+            border: 1px solid black;
+            width: 70px;
+            height: 70px;
+
+
+        }
+        .box4, .box2, .box3, .kutu1, .kutu2, .kutu3, .kutu4, .kutu5, .kutu6, .kutu7, .kutu9 {
+            margin: 10px;
+        }
+         .kutular {
+            justify-content: end;
+         }
+        
+            
+        .kutular1 {
+            justify-content: center;
+        }
+        
+        .kutular2 {
+            justify-content: space-between;
+        }
+
+        .kutular3 {
+            justify-content: space-around;
+        }
+        .kutular4 {
+            justify-content: space-between;
+        }
+        .kutu13 {
+            margin-left: 215px;
+        }
+        .kutu14 {
+            margin-left: 140px;
+        }
+        .kutu15 {
+            margin-right: 360px;
+        }
+    </style>
+</head>
+<body>
+  <div class="box1"> 
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+  </div>
+  
+
+ <div class="kutular">
+
+   <div class="kutu1"></div>
+   <div class="kutu2"></div>
+   <div class="kutu3"></div>
+
+ </div>
+
+
+ <div class="kutular1">
+     <div class="kutu4"></div>
+     <div class="kutu5"></div>
+     <div class="kutu6"></div>
+ </div>
+
+
+   <div class="kutular2">
+    <div class="kutu7"></div>
+    <div class="kutu8"></div>
+    <div class="kutu9"></div>
+   </div>
+
+    <div class="kutular3">
+     <div class="kutu10"></div>
+     <div class="kutu11"></div>
+     <div class="kutu12"></div>
+    </div>
+
+    <div class="kutular4">
+    <div class="kutu13"></div>
+    <div class="kutu14"></div>
+    <div class="kutu15"></div>
+    </div>
+
+    
+</body>
+</html>
